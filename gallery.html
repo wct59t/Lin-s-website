@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>展示區</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.imgur.com/QZJ60ns.jpeg" alt="LOGO圖片"> <!-- LOGO圖片 -->
+            <h1>商家名稱</h1> <!-- 商家名稱 -->
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">似顏繪</a></li>
+                <li><a href="other-commissions.html">其他委託</a></li>
+                <li><a href="products.html">產品</a></li>
+                <li><a href="gallery.html">展示區</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+            &#9776; <!-- 這個符號代表漢堡菜單 -->
+        </div>
+    </header>
+    <main>
+        <section class="exhibition">
+            <h2>小展覽</h2>
+            <div class="exhibition-gallery">
+                <div class="exhibition-item">
+                    <img src="https://i.imgur.com/QZJ60ns.jpeg" alt="展品1">
+                    <p>展品1描述：這是一個驚人的藝術作品。</p>
+                </div>
+                <div class="exhibition-item">
+                    <img src="https://i.imgur.com/QZJ60ns.jpeg" alt="展品2">
+                    <p>展品2描述：這是一個創意十足的設計。</p>
+                </div>
+                <div class="exhibition-item">
+                    <img src="https://i.imgur.com/QZJ60ns.jpeg" alt="展品3">
+                    <p>展品3描述：這是一個精緻的手工藝作品。</p>
+                </div>
+                <div class="exhibition-item">
+                    <img src="https://i.imgur.com/QZJ60ns.jpeg" alt="展品4">
+                    <p>展品4描述：這是一個充滿想像力的創作。</p>
+                </div>
+                <div class="exhibition-item">
+                    <img src="https://i.imgur.com/QZJ60ns.jpeg" alt="展品5">
+                    <p>展品5描述：這是一個色彩豐富的畫作。</p>
+                </div>
+                <div class="exhibition-item">
+                    <img src="https://i.imgur.com/QZJ60ns.jpeg" alt="展品6">
+                    <p>展品6描述：這是一個獨特的藝術品。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h4>Instagram</h4>
+                <p>Instagram帳號資訊</p>
+            </div>
+            <div class="contact-item">
+                <h4>Line</h4>
+                <p>Line帳號資訊</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var nav = document.querySelector('nav ul');
+            nav.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
